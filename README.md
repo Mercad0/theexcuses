@@ -1,4 +1,4 @@
-## Live Link Here!! ----> https://mercad0.github.io/theexcuses/
+## Live Link Here!! ---->
 
 # Hello World with Vanilla JS
 
