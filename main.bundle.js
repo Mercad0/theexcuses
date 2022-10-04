@@ -10180,7 +10180,7 @@ var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../node_module
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
 // Module
-exports.push([module.i, "\n", ""]);
+exports.push([module.i, "img {\n  width: 230px;\n  height: 250px;\n  border-radius: 250px;\n}\n\nbody {\n  background-color: antiquewhite;\n}\n\nh1 {\n  background-color: aqua;\n  border-radius: 25px;\n}\n\n#btn {\n  background-color: purple;\n  color: white;\n  border-radius: 25px;\n  font-size: 30px;\n}\n.button {\n  background-color: red;\n  color: white;\n  font-size: 20px;\n  border-radius: 25px;\n  margin-top: 5px;\n  padding: 3px 15px 3px 15px;\n}\n\na {\n  color: white;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -19123,44 +19123,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_img_rigo_baby_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/img/rigo-baby.jpg */ "./src/assets/img/rigo-baby.jpg");
-/* harmony import */ var _assets_img_4geeks_ico__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/img/4geeks.ico */ "./src/assets/img/4geeks.ico");
 /* eslint-disable */
 
 
 
-
-
-window.onload = function () {
+window.onload = function excuse() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  var myPotato = ["baked potato", "fried chickens", "pollo tropical eggs", "the neighborhood dog", "the cat", "the car"];
+  var ate = ["pushed", "slapped", "kicked", "threw "];
+  var theFork = ["the rock to a lake", "the spoon inside an oven", "  the computer inside the toilet", "the backpack onto the curb", "the pencil on a notebook", "released a bonus song", "and dipped"];
+
+  function dog() {
+    document.getElementById("generatexcuse").innerHTML = myPotato[Math.floor(Math.random() * myPotato.length)] + " " + ate[Math.floor(Math.random() * ate.length)] + " " + theFork[Math.floor(Math.random() * theFork.length)];
+  }
+
+  document.getElementById("btn").addEventListener("click", dog);
 };
-
-/***/ }),
-
-/***/ "./src/assets/img/4geeks.ico":
-/*!***********************************!*\
-  !*** ./src/assets/img/4geeks.ico ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "4geeks.ico");
-
-/***/ }),
-
-/***/ "./src/assets/img/rigo-baby.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/img/rigo-baby.jpg ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "rigo-baby.jpg");
 
 /***/ }),
 
